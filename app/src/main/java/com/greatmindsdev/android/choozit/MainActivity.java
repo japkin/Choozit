@@ -19,6 +19,11 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
+
+/**
+ * Jovan's update and check in!!! It Works!!!
+ */
+
 public class MainActivity extends ActionBarActivity implements ActionBar.TabListener {
 
     /**
@@ -146,6 +151,8 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
                 case 1:
                     return getString(R.string.title_section2).toUpperCase(l);
                 case 2:
+                    return getString(R.string.title_section3).toUpperCase(l);
+                case 3:
                     return getString(R.string.title_section3).toUpperCase(l);
             }
             return null;
